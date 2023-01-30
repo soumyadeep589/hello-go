@@ -8,6 +8,7 @@ func TestReverseRunes(t *testing.T) {
     }{
         {"Hello, world", "dlrow ,olleH"},
         {"Hello, 世界", "界世 ,olleH"},
+		{"ola", "alo"},
         {"", ""},
     }
     for _, c := range cases {
